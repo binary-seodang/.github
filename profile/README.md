@@ -1,7 +1,7 @@
 # 스터디 설명서
 
 ## 스터디 가이드라인
-[Airbnb 코드스타일 가이드 바로가기](https://github.com/tipjs/javascript-style-guide#28.2 "Airbnb 코드스타일 가이드")
+[Airbnb 코드스타일 가이드 바로가기](https://github.com/parksb/javascript-style-guide "Airbnb 코드스타일 가이드")
 
 
 ---
