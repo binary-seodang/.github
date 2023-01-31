@@ -18,6 +18,9 @@
       - [git 원격 연결](#git-원격-연결)
       - [소스 커밋](#소스-커밋)
       - [레포지토리 세팅](#레포지토리-세팅)
+  - [작업 시작하기](#작업-시작하기)
+      - [신규 브런치 생성](#신규-브런치-생성)
+    - [PR 요청하기](#pr-요청하기)
   - [추가 설정](#추가-설정)
   - [커밋 컨벤션](#커밋-컨벤션)
   
@@ -47,6 +50,10 @@
    git remote remove origin
    git remote add origin <<자신의 원격 레포지토리 주소>>
    ```
+   - CODEOWERS 설정
+     - 바이너리서당 그룹 내에 레포지토리 생성 시 @binary-seodang/members 추가
+     - 개인 계정 내에 레포지토리 생성 시 해당하는 유저의 깃허브 닉네임 추가 
+      [CODEOWNERS 설정 가이드](https://helloinyong.tistory.com/329)
 
 #### 소스 커밋
    - 작업한 소스들을 스테이징에 올리고 '커밋' 버튼 클릭
@@ -64,6 +71,13 @@
       ![브런치룰1](https://kitworks.s3.ap-northeast-2.amazonaws.com/codereview/%EB%B8%8C%EB%9F%B0%EC%B9%98%EB%A3%B0.png) 
       ![브런치룰2](https://kitworks.s3.ap-northeast-2.amazonaws.com/codereview/%EB%B8%8C%EB%9F%B0%EC%B9%98%EB%A3%B02.png) 
 
+
+## 작업 시작하기
+   #### 신규 브런치 생성
+   - 신규 브런치는 마스터에서 생성
+   ![브런치](https://kitworks.s3.ap-northeast-2.amazonaws.com/codereview/%EB%B8%8C%EB%9F%B0%EC%B9%98.png)
+
+   ### PR 요청하기
 
 ---
 ## 추가 설정
