@@ -8,36 +8,37 @@
 ## 목차
 
   1. [레포지토리 세팅방법](#레포지토리-세팅방법)
+     1. [바이너리서당 깃허브에 접속](#바이너리서당-깃허브에-접속)
   
 ---
 
 ## 레포지토리 세팅방법
-1. 바이너리서당 깃허브에 접속
+   #### 바이너리서당 깃허브에 접속
 [바이너리서당 바로가기](https://github.com/orgs/binary-seodang/repositories "바이너리서당 레포지토리 바로가기")
-2. 필터 타입을 templates로 변경
+   #### 필터 타입을 templates로 변경
 ![필터타입변경](https://kitworks.s3.ap-northeast-2.amazonaws.com/codereview/%ED%85%9C%ED%94%8C%EB%A6%BF%ED%95%84%ED%84%B0%EC%84%A4%EC%A0%95.png)
-1. 원하는 template을 선택 후 clone하기
+   #### 원하는 template을 선택 후 clone하기
    |템플릿 목록||
    |----|----|
    |![템플릿목록](https://kitworks.s3.ap-northeast-2.amazonaws.com/codereview/%ED%85%9C%ED%94%8C%EB%A6%BF+%EB%AA%A9%EB%A1%9D.png)|<ul><li style="margin-bottom:5px;"><a href="https://github.com/binary-seodang/vite-react-javascript" target="_blank">vite react-js</a></li><li style="margin-bottom:5px;"><a href="https://github.com/binary-seodang/vite-react-typescript">vite react-ts</a></li><li style="margin-bottom:5px;"><a href="https://github.com/binary-seodang/default" target="_blank" >empty js</a></li><li style="margin-bottom:5px;"><a href="https://github.com/binary-seodang/nestjs" target="_blank">nestjs</a></li><li style="margin-bottom:5px;"><a href="https://github.com/binary-seodang/next-javascript" target="_blank">next-js</a></li><li style="margin-bottom:5px;"><a href="https://github.com/binary-seodang/next-typescript" target="_blank">next-ts</a></li></li><li style="margin-bottom:5px;"><a href="https://github.com/binary-seodang/react-javascript" target="_blank">CRA-js</a></li><li style="margin-bottom:5px;"><a href="https://github.com/binary-seodang/react-typescript" target="_blank">CRA-ts</a></li>
 </ul>
    
-1. 패키지 설치 후 아래 이미지와 같은 메세지가 노출 된다면 성공
+#### 패키지 설치 후 아래 이미지와 같은 메세지가 노출 된다면 성공
    ```bash
    npm install # yarn
    ```
    ![성공메세지](https://kitworks.s3.ap-northeast-2.amazonaws.com/codereview/husky_install.png)
 
-2. git 원격 주소가 이미 등록되어 있는 상태이므로 원격주소지 제거 및 재등록
+#### git 원격 주소가 이미 등록되어 있는 상태이므로 원격주소지 제거 및 재등록
    ```bash
    git remote remove origin
    git remote add origin <<자신의 원격 레포지토리 주소>>
    ```
 
-3. 작업한 소스들을 스테이징에 올리고 '커밋' 버튼 클릭
+#### 작업한 소스들을 스테이징에 올리고 '커밋' 버튼 클릭
    ![커밋버튼설명](https://kitworks.s3.ap-northeast-2.amazonaws.com/codereview/%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%95.png)
 
-4. 원격 최초 연결이 완료되었다면, 원격 레포지토리 세팅
+#### 원격 최초 연결이 완료되었다면, 원격 레포지토리 세팅
    - 레포지토리 세팅
       ![레포지토리세팅](https://kitworks.s3.ap-northeast-2.amazonaws.com/codereview/%EC%9B%90%EA%B2%A9%EC%B4%88%EA%B8%B0%EC%84%B8%ED%8C%85.png)
    - 콜라보레이터 추가
