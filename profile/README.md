@@ -1,5 +1,5 @@
 # 스터디 설명서
----
+
 ## 스터디 가이드라인
 [Airbnb 코드스타일 가이드 바로가기](https://github.com/tipjs/javascript-style-guide#28.2 "Airbnb 코드스타일 가이드")
 
@@ -11,7 +11,7 @@
    [바이너리서당 바로가기](https://github.com/orgs/binary-seodang/repositories "바이너리서당 레포지토리 바로가기")
    <br />
 2. 필터 타입을 templates로 변경
-   ![필터타입변경](https://kitworks.s3.ap-northeast-2.amazonaws.com/codereview/%ED%85%9C%ED%94%8C%EB%A6%BF%ED%95%84%ED%84%B0%EC%84%A4%EC%A0%95.png)
+![필터타입변경](https://kitworks.s3.ap-northeast-2.amazonaws.com/codereview/%ED%85%9C%ED%94%8C%EB%A6%BF%ED%95%84%ED%84%B0%EC%84%A4%EC%A0%95.png)
 3. 원하는 template을 선택 후 clone하기
    |템플릿 목록||
    |----|----|
@@ -33,7 +33,7 @@
 6. 작업한 소스들을 스테이징에 올리고 '커밋' 버튼 클릭
    ![커밋버튼설명](https://kitworks.s3.ap-northeast-2.amazonaws.com/codereview/%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%95.png)
 
-7. 원격 최초 연결이 완료되었다면, 원격 레포지토리 세팅
+4. 원격 최초 연결이 완료되었다면, 원격 레포지토리 세팅
    - 레포지토리 세팅
       ![레포지토리세팅](https://kitworks.s3.ap-northeast-2.amazonaws.com/codereview/%EC%9B%90%EA%B2%A9%EC%B4%88%EA%B8%B0%EC%84%B8%ED%8C%85.png)
    - 콜라보레이터 추가
