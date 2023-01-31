@@ -50,6 +50,7 @@
 
 #### 소스 커밋
    - 작업한 소스들을 스테이징에 올리고 '커밋' 버튼 클릭
+<br />
    ![커밋버튼설명](https://kitworks.s3.ap-northeast-2.amazonaws.com/codereview/%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%95.png)
 
 #### 레포지토리 세팅
